@@ -1,0 +1,535 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <title>Subhadip Pati | Student Portfolio</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description"
+        content="Portfolio of Subhadip Pati, B.Tech CSE student learning Full Stack Development, Python, Java, C, C++, SQL and Machine Learning." />
+
+  <!-- Google Font -->
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet" />
+
+  <!-- External CSS -->
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <!-- ---------- Floating Background Shapes ---------- -->
+  <div class="orb orb-1"></div>
+  <div class="orb orb-2"></div>
+  <div class="orb orb-3"></div>
+
+  <!-- ---------- Navbar ---------- -->
+  <header>
+    <div class="container nav">
+      <div class="logo">
+        <span class="logo-badge">𝚂</span>
+        <span>SUBHADIP PORTFOLIO</span>
+      </div>
+
+      <!-- Mobile toggle button -->
+      <button class="nav-toggle" id="nav-toggle" aria-label="Toggle navigation">
+        <span></span>
+        <span></span>
+        <span></span>
+      </button>
+
+      <nav class="nav-links" id="nav-menu">
+        <a href="#about">About</a>
+        <a href="#skills">Skills</a>
+        <a href="#projects">Projects</a>
+        <a href="#playground">Python & ML</a>
+        <a href="#contact">Contact</a>
+      </nav>
+    </div>
+  </header>
+
+  <main class="container">
+    <!-- ---------- Hero ---------- -->
+    <section class="hero" id="home">
+      <div class="hero-text">
+        <div class="hero-tag">
+          <span class="hero-tag-dot"></span>
+          Open to Internships & Projects
+        </div>
+        <h1 class="hero-title">
+          Hi, I'm <span>Subhadip Pati</span> 👋
+        </h1>
+        <p class="hero-subtitle">
+          A B.Tech CSE student who loves building full stack applications, exploring databases,
+          and using <strong>Python & Machine Learning</strong> for real-world problems.
+        </p>
+        <p class="typing" id="typing-role"></p>
+
+        <div class="hero-buttons">
+          <a href="#projects" class="btn-primary">
+            View Projects <span class="btn-icon">🚀</span>
+          </a>
+          <a href="#contact" class="btn-ghost">
+            Contact Me <span class="btn-icon">💬</span>
+          </a>
+        </div>
+
+        <div class="hero-socials">
+          <a href="https://github.com/Subhadip-Pati" target="_blank">GitHub</a>
+          <a href="#" target="_blank">LinkedIn</a>
+          <a href="mailto:subhadippati982@gmail.com">Email</a>
+        </div>
+      </div>
+
+      <aside class="hero-card">
+        <div class="hero-card-glow"></div>
+
+        <div class="hero-avatar">
+          <!-- Replace these with your real pics in /assets -->
+          <div class="hero-avatar-stack">
+          <img src="profile.jpg" alt="Subhadip Pati" class="avatar-main" />
+          <img src="coding-setup.jpg" alt="Coding Setup" class="avatar-small avatar-small-1" />
+          <img src="college-life.jpg" alt="College Life" class="avatar-small avatar-small-2" />
+          </div>
+          <div class="hero-avatar-info">
+            <h3>Subhadip Pati</h3>
+            <p>B.Tech CSE · Aspiring Full Stack & ML Developer</p>
+          </div>
+        </div>
+
+        <div class="hero-pill-row">
+          <div class="pill">
+            <span class="pill-dot"></span> Full Stack & Python
+          </div>
+          <div class="pill">🤖 ML Beginner</div>
+          <div class="pill">🧠 DSA Learner</div>
+          <div class="pill">📚 Always Exploring</div>
+        </div>
+
+        <p class="hero-quote">
+          “Code, break, debug, repeat. Every bug fixed is one step closer to being a better engineer.”
+        </p>
+
+        <div class="hero-stats">
+          <div>
+            <span>CGPA</span>
+            <strong>8.0 / 10</strong>
+          </div>
+          <div>
+            <span>Mini Projects</span>
+            <strong>10+ </strong>
+          </div>
+          <div>
+            <span>Primary Stack</span>
+            <strong>HTML · CSS · JS · Python</strong>
+          </div>
+        </div>
+
+        <div class="hero-card-footer">
+          <span>Current Focus:<br /><strong>Full Stack · Python · ML</strong></span>
+          <span>Core Tools:<br /><strong>VS Code · Git · GitHub</strong></span>
+        </div>
+      </aside>
+    </section>
+
+    <!-- ---------- Highlights ---------- -->
+    <section id="highlights">
+      <h2 class="section-title reveal">Highlights</h2>
+      <p class="section-subtitle reveal">
+        A quick look at who I am as a developer and learner.
+      </p>
+
+      <div class="highlights-grid">
+        <div class="highlight-card reveal">
+          <h3>💡 What I enjoy</h3>
+          <ul>
+            <li>Designing clean and responsive UIs.</li>
+            <li>Building small tools that actually solve a problem.</li>
+            <li>Learning how ML models work internally.</li>
+            <li>Understanding how data flows in a full stack app.</li>
+          </ul>
+        </div>
+
+        <div class="highlight-card reveal">
+          <h3>🎯 Current Goals</h3>
+          <ul>
+            <li>Strengthen DSA & problem solving skills.</li>
+            <li>Build real-world full stack projects.</li>
+            <li>Learn practical Machine Learning with Python.</li>
+            <li>Contribute to open-source projects.</li>
+          </ul>
+        </div>
+
+        <div class="highlight-card reveal">
+          <h3>📌 Tech Interests</h3>
+          <ul>
+            <li>Frontend: React basics, animations, UI/UX.</li>
+            <li>Backend: Node.js, REST APIs, authentication.</li>
+            <li>ML: Scikit-learn, Pandas, visualization.</li>
+            <li>Databases: MySQL, SQL queries & optimization basics.</li>
+          </ul>
+        </div>
+      </div>
+    </section>
+
+    <!-- ---------- About ---------- -->
+    <section id="about">
+      <h2 class="section-title reveal">About Me</h2>
+      <p class="section-subtitle reveal">
+        I'm a Computer Science student who likes turning ideas into working projects and breaking down
+        complex topics into simple steps.
+      </p>
+
+      <div class="about-grid">
+        <div class="about-card reveal">
+          <h3>🎓 Education</h3>
+          <p>
+            B.Tech in Computer Science & Engineering (CSE)<br />
+            Guru Nanak Institute of Technology (GNIT)<br />
+            <span class="muted">(2024 – 2028)</span><br />
+            <span class="muted">Current CGPA: 8.0 / 10 (update when needed)</span>
+          </p>
+          <ul class="about-list">
+            <li><span>•</span> Interested in Web Development & Machine Learning</li>
+            <li><span>•</span> Learning Data Structures & Algorithms</li>
+            <li><span>•</span> Practice with coding problems and project-based learning</li>
+          </ul>
+        </div>
+
+        <div class="about-card reveal">
+          <h3>🧾 Brief — About Me</h3>
+          <p>
+            I like to build projects that teach me something new: layout, logic, or performance.
+            My approach is simple: start small, test fast, and improve with feedback. I enjoy learning
+            from documentation, YouTube tutorials, and official docs while experimenting on my own.
+          </p>
+          <ul class="about-list">
+            <li><span>•</span> Comfortable with CLI, Git, GitHub & VS Code</li>
+            <li><span>•</span> Like explaining concepts to friends while studying</li>
+            <li><span>•</span> Looking for internships and collaborative projects</li>
+          </ul>
+        </div>
+
+        <div class="about-card reveal">
+          <h3>🌱 Beyond Coding</h3>
+          <p>
+            Outside pure coding, I enjoy:
+          </p>
+          <ul class="about-list">
+            <li><span>•</span> Reading tech blogs & documentation</li>
+            <li><span>•</span> Watching CS / ML YouTube channels</li>
+            <li><span>•</span> Experimenting with small automation scripts</li>
+            <li><span>•</span> Learning how real products are designed & shipped</li>
+          </ul>
+        </div>
+      </div>
+    </section>
+
+    <!-- ---------- Skills ---------- -->
+    <section id="skills">
+      <h2 class="section-title reveal">Skills</h2>
+      <p class="section-subtitle reveal">
+        Technologies and tools I’m learning and using in my projects.
+      </p>
+
+      <div class="skills-grid">
+        <!-- Full Stack -->
+        <div class="skill-card reveal">
+          <h3><span>🌐</span> Full Stack Basics</h3>
+          <p class="skill-text">
+            Building simple full stack applications with frontend and basic backend ideas.
+          </p>
+          <div class="skill-tags">
+            <span class="skill-tag">HTML</span>
+            <span class="skill-tag">CSS</span>
+            <span class="skill-tag">JavaScript</span>
+            <span class="skill-tag">Node.js (learning)</span>
+          </div>
+          <div class="skill-level-bar">
+            <div class="skill-level-fill" data-level="70"></div>
+          </div>
+        </div>
+
+        <!-- Programming Languages -->
+        <div class="skill-card reveal">
+          <h3><span>💻</span> Programming Languages</h3>
+          <p class="skill-text">
+            Learning to write clean and efficient code in multiple languages.
+          </p>
+          <div class="skill-tags">
+            <span class="skill-tag">Python</span>
+            <span class="skill-tag">Java</span>
+            <span class="skill-tag">C</span>
+            <span class="skill-tag">C++</span>
+          </div>
+          <div class="skill-level-bar">
+            <div class="skill-level-fill" data-level="75"></div>
+          </div>
+        </div>
+
+        <!-- Python & Machine Learning -->
+        <div class="skill-card reveal">
+          <h3><span>🤖</span> Python & Machine Learning</h3>
+          <p class="skill-text">
+            Exploring data analysis and basic machine learning workflows.
+          </p>
+          <div class="skill-tags">
+            <span class="skill-tag">Python</span>
+            <span class="skill-tag">NumPy (learning)</span>
+            <span class="skill-tag">Pandas (learning)</span>
+            <span class="skill-tag">scikit-learn (basics)</span>
+          </div>
+          <div class="skill-level-bar">
+            <div class="skill-level-fill" data-level="55"></div>
+          </div>
+        </div>
+
+        <!-- Database -->
+        <div class="skill-card reveal">
+          <h3><span>🗄️</span> Database & SQL</h3>
+          <p class="skill-text">
+            Understanding how to store, manage, and query data efficiently.
+          </p>
+          <div class="skill-tags">
+            <span class="skill-tag">MySQL / SQL</span>
+            <span class="skill-tag">Relational DB</span>
+            <span class="skill-tag">Basic Queries</span>
+          </div>
+          <div class="skill-level-bar">
+            <div class="skill-level-fill" data-level="60"></div>
+          </div>
+        </div>
+
+        <!-- Git & GitHub -->
+        <div class="skill-card reveal">
+          <h3><span>🔧</span> Git & GitHub</h3>
+          <p class="skill-text">
+            Using version control to track changes and collaborate on projects.
+          </p>
+          <div class="skill-tags">
+            <span class="skill-tag">Git</span>
+            <span class="skill-tag">GitHub</span>
+            <span class="skill-tag">Commit & Push</span>
+            <span class="skill-tag">Branching (learning)</span>
+          </div>
+          <div class="skill-level-bar">
+            <div class="skill-level-fill" data-level="65"></div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ---------- Projects ---------- -->
+    <section id="projects">
+      <h2 class="section-title reveal">Projects</h2>
+      <p class="section-subtitle reveal">
+        A mix of web, console, and Python/ML ideas that help me practice and grow.
+      </p>
+
+      <div class="projects-grid">
+        <div class="project-card reveal">
+          <div>
+            <h3 class="project-title">Personal Portfolio Website</h3>
+            <p class="project-desc">
+              A responsive portfolio with animations, sections for skills, projects, and a
+              Python/ML playground. Built with clean HTML, CSS, and JavaScript.
+            </p>
+            <div class="project-stack">
+              <span>HTML</span>
+              <span>CSS</span>
+              <span>JavaScript</span>
+            </div>
+          </div>
+          <div class="project-links">
+            <a href="https://github.com/your-github-username/portfolio" target="_blank">
+              View on GitHub <span>↗</span>
+            </a>
+          </div>
+        </div>
+
+        <div class="project-card reveal">
+          <div>
+            <h3 class="project-title">Student Management Console App</h3>
+            <p class="project-desc">
+              A console-based app to add, update, and display student details using arrays or vectors.
+              A starting step towards understanding CRUD operations.
+            </p>
+            <div class="project-stack">
+              <span>C / C++</span>
+              <span>OOP (optional)</span>
+            </div>
+          </div>
+          <div class="project-links">
+            <a href="https://github.com/your-github-username/student-management" target="_blank">
+              View on GitHub <span>↗</span>
+            </a>
+          </div>
+        </div>
+
+        <div class="project-card reveal">
+          <div>
+            <h3 class="project-title">Login & Registration Page</h3>
+            <p class="project-desc">
+              Simple login and registration UI connected to a database (or file) to store user data.
+              Great for learning authentication flow and forms.
+            </p>
+            <div class="project-stack">
+              <span>Java / Python</span>
+              <span>MySQL / SQLite</span>
+              <span>Backend Basics</span>
+            </div>
+          </div>
+          <div class="project-links">
+            <a href="https://github.com/your-github-username/login-registration" target="_blank">
+              View on GitHub <span>↗</span>
+            </a>
+          </div>
+        </div>
+
+        <div class="project-card reveal">
+          <div>
+            <h3 class="project-title">Simple ML Marks Predictor</h3>
+            <p class="project-desc">
+              A basic ML idea: use study hours and previous marks to predict performance with
+              linear regression. The website includes a simple demo of this logic.
+            </p>
+            <div class="project-stack">
+              <span>Python</span>
+              <span>NumPy</span>
+              <span>Pandas</span>
+              <span>scikit-learn</span>
+            </div>
+          </div>
+          <div class="project-links">
+            <a href="https://github.com/your-github-username/marks-predictor" target="_blank">
+              View on GitHub <span>↗</span>
+            </a>
+          </div>
+        </div>
+
+        <div class="project-card reveal">
+          <div>
+            <h3 class="project-title">Python CLI Utility Pack</h3>
+            <p class="project-desc">
+              A small collection of Python scripts (unit converter, basic calculator, file organizer)
+              to automate simple tasks and practice Python fundamentals.
+            </p>
+            <div class="project-stack">
+              <span>Python</span>
+              <span>OS Module</span>
+              <span>Automation</span>
+            </div>
+          </div>
+          <div class="project-links">
+            <a href="https://github.com/your-github-username/python-utilities" target="_blank">
+              View on GitHub <span>↗</span>
+            </a>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ---------- Python & ML Playground ---------- -->
+    <section id="playground">
+      <h2 class="section-title reveal">Python & ML Playground</h2>
+      <p class="section-subtitle reveal">
+        A small interactive area on this site to explore how I think about Python and basic ML ideas.
+      </p>
+
+      <div class="playground-grid">
+        <!-- Marks Predictor Demo -->
+        <div class="playground-card reveal">
+          <h3>📈 Study Hours → Marks Predictor</h3>
+          <p class="playground-text">
+            This is a simple demo inspired by linear regression: more study hours generally means
+            better marks (up to a limit). Enter your daily study hours below:
+          </p>
+          <div class="predictor-form">
+            <label for="hours-input">Study hours per day</label>
+            <input type="number" id="hours-input" min="0" max="15" step="0.5" placeholder="e.g., 3.5" />
+            <button id="predict-btn" class="btn-primary small-btn">Predict Marks</button>
+          </div>
+          <p id="predict-output" class="predict-output"></p>
+          <p class="playground-note">
+            *Logic used: <code>predicted_marks = 40 + 5 × hours</code> (capped between 0 and 100).
+            In real ML, we’d train this formula using actual data & scikit-learn.
+          </p>
+        </div>
+
+        <!-- Python Code Snippet / Tips -->
+        <div class="playground-card reveal">
+          <h3>🐍 Random Python Tip / Snippet</h3>
+          <p class="playground-text">
+            Click the button to see a small Python tip or ML-related code snippet idea.
+          </p>
+          <pre class="code-block"><code id="python-tip">
+# Click the button to generate a tip...
+          </code></pre>
+          <button id="tip-btn" class="btn-ghost small-btn">
+            New Python Tip
+          </button>
+          <p class="playground-note">
+            These snippets show basic patterns in Python for data, loops, and ML-style thinking.
+          </p>
+        </div>
+      </div>
+    </section>
+
+    <!-- ---------- Contact ---------- -->
+    <section id="contact">
+      <h2 class="section-title reveal">Contact</h2>
+      <p class="section-subtitle reveal">
+        Want to discuss a project, internship, or just say hi? Feel free to reach out.
+      </p>
+
+      <div class="contact-wrapper">
+        <div class="contact-card reveal">
+          <h3>📬 Get In Touch</h3>
+          <p>
+            You can email me or connect with me on GitHub for more projects and code.
+          </p>
+          <div class="contact-links">
+            <span>Email:
+              <a href="mailto:subhadippati982@gmail.com">subhadippati982@gmail.com</a>
+            </span><br />
+            <span>GitHub:
+              <a href="https://github.com/Subhadip-Pati" target="_blank">Subhadip-Pati</a>
+            </span>
+          </div>
+        </div>
+
+        <div class="contact-card reveal">
+          <h3>✉️ Send a Message</h3>
+          <form id="contact-form">
+            <div>
+              <label for="name">Name</label>
+              <input id="name" type="text" placeholder="Enter your name" required />
+            </div>
+            <div>
+              <label for="email">Email</label>
+              <input id="email" type="email" placeholder="Enter your email" required />
+            </div>
+            <div>
+              <label for="message">Message</label>
+              <textarea id="message" rows="4" placeholder="Write your message..." required></textarea>
+            </div>
+            <button type="submit" class="btn-primary" style="margin-top: 0.4rem;">
+              Send Message
+            </button>
+          </form>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <!-- ---------- Footer ---------- -->
+  <footer>
+    <div class="container footer-inner">
+      <span>© <span id="year"></span> Subhadip Pati. All rights reserved.</span>
+      <span>Built with ❤️ using HTML, CSS, JavaScript & Python/ML ideas.</span>
+    </div>
+  </footer>
+
+  <!-- Back to top button -->
+  <button id="back-to-top" aria-label="Back to top">↑</button>
+
+  <!-- External JS -->
+  <script src="script.js"></script>
+</body>
+</html>
